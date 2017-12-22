@@ -23,14 +23,11 @@ namespace WebApiV2
             );
             config.Services.Replace(typeof(IHttpControllerSelector), new CustomControllerSelector(config));
 
-            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("application/mpv.pragimtech.students.v1+json"));
-            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("application/mpv.pragimtech.students.v2+json"));
+            //config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("Accept: application/mpv.pragimtech.students.v1+json"));
+            //config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("Accept: application/mpv.pragimtech.students.v2+json"));
 
-            config.Formatters.XmlFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("application/mpv.pragimtech.students.v1+xml"));
-
-            config.Formatters.XmlFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("application/mpv.pragimtech.students.v2+xml"));
-
-
+            //config.Formatters.XmlFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("Accept: application/mpv.pragimtech.students.v1+xml"));
+            //config.Formatters.XmlFormatter.SupportedMediaTypes.Add(new System.Net.Http.Headers.MediaTypeHeaderValue("Accept: application/mpv.pragimtech.students.v2+xml"));
             //config.Routes.MapHttpRoute(
             //    name: "StudentV2",
             //    routeTemplate: "api/v2/students/{id}",

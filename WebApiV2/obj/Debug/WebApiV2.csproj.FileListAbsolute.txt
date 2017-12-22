@@ -71,4 +71,3 @@ D:\Bitcoin_Wallet\Various_AspNet_Projects\WebApiV2\WebApiV2\bin\Microsoft.AI.Win
 D:\Bitcoin_Wallet\Various_AspNet_Projects\WebApiV2\WebApiV2\bin\Microsoft.AI.Web.xml
 D:\Bitcoin_Wallet\Various_AspNet_Projects\WebApiV2\WebApiV2\obj\Debug\WebApiV2.dll
 D:\Bitcoin_Wallet\Various_AspNet_Projects\WebApiV2\WebApiV2\obj\Debug\WebApiV2.pdb
-D:\Bitcoin_Wallet\Various_AspNet_Projects\WebApiV2\WebApiV2\obj\Debug\WebApiV2.csprojResolveAssemblyReference.cache
