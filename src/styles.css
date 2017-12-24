@@ -1,5 +1,10 @@
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+.boldClass {
+  font-weight:bold;
+}
+
+.italicClass{
+  font-style:italic;
+}
+.colonClass{
+  color:red;
 }

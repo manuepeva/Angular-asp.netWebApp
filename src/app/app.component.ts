@@ -1,7 +1,16 @@
 import { Component } from '@angular/core';
+import { EmployeesComponent } from './employee/employees.component';
 
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  template: `
+            <div>
+                Name: <input [value]='name'/>
+                <br/>
+                You Entered : {{name}}
+            </div>
+              `
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  {
+    name: string = 'Tom';
+}
