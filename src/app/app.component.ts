@@ -5,7 +5,7 @@ import { EmployeesComponent } from './employee/employees.component';
   selector: 'my-app',
   template: `
             <div>
-                Name: <input [value]='name'/>
+                Name: <input [(ngModel)]='name'/>
                 <br/>
                 You Entered : {{name}}
             </div>
